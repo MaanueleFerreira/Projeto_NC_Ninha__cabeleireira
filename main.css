@@ -1,0 +1,82 @@
+
+/* >>>>>>>>  Sessão destaque  <<<<<<<< */
+.destaques__container{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    padding-inline: 4rem;
+    min-width: 1100px;
+}
+
+.destaques__profissionais, .destaques__qualificacoes, .destaques__productos, .destaques__equipment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destaques__imagens{
+    width: 120px;
+}
+
+.destaques__tittle {
+
+    font-size: 1rem;
+    margin-block: 0.28rem;
+}
+
+.destaques__description {
+    line-height: 1.25;
+    font-size: 0.80rem;
+    text-align: center;
+    padding-inline: 1.50rem;
+}
+
+/* >>>>>>>> Sessão Serviços  <<<<<<<< */
+
+
+/* >>>>>>>>  Serviços  <<<<<<<< */
+
+
+/* >>>>>>>> Sessão Sobre nós  <<<<<<<< */
+#sobre-nos__container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #faedcd;
+} 
+
+/* Voltar:
+    preciso finalizar a edição da imagem*/
+.sobre-nos__left{
+    flex: 2;
+    display: flex;
+}
+
+.sobre-nos__left img{
+    border-radius: 10px;
+    margin: auto;
+}
+
+.sobre-nos__right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 5rem 8rem;
+    color: #603e2e;
+    min-width: 600px;
+}
+
+.sobre-nos__tittle{
+    font-size: 2rem;
+    border-bottom: 2px solid #ad5452;
+    line-height: 1.25;
+}
+
+.sobre-nos__description{
+    margin-top: 1.50rem;
+    font-size: 0.95rem;
+    max-width: 45ch;
+    line-height: 1.6;
+}
