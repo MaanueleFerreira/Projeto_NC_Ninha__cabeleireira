@@ -1,2 +1,89 @@
 /* */
 
+header {
+    width: 100%;
+    padding: 1.25rem;
+    height: 720px;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+
+}
+
+#navbar__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    justify-items: center;
+}
+
+.nav_list {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.nav__a{
+    color: #d2bb9f;
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+
+.nav__a:hover{
+    color: #faedcd;
+}
+
+a {
+    color: #603e2e;
+}
+
+.default__btn{
+    font-weight: 600;
+    font-size: 0.80rem;
+    background: linear-gradient(25deg, #fefae0, #d4a373);
+    border: none;
+    padding: 0.35em 2em;
+    border-radius: 7px;
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.137);
+    cursor: pointer;
+    max-width: 16rem;
+    transition: background 0.5s ease;
+}
+
+/* Voltar: brincar e descobrir mais efeitos de transition e animation*/
+.default__btn:hover{
+    background: linear-gradient(25deg, #d4a373, #faedcd);
+}
+
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    width: 45%; 
+    margin: 7rem 4rem;
+    padding: 2rem;
+    color: #fff9ea;
+    max-width: 1280px;
+}
+
+/* CH: caracteres - delimita a quantidade de caracters por box*/
+.hero__tittle {
+    font-size: 2.50rem;
+    line-height: 1.2;
+    max-width: 18ch; 
+}
+
+.hero__destaque{
+    color: #faedcd;
+    font-size: 3rem;
+}
+
+.hero__description{
+    line-height: 1.45;
+    font-weight: 300;
+    font-size: 0.90rem;
+    margin-block: 1.80rem;
+    max-width: 42ch;
+}
