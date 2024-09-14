@@ -1,0 +1,32 @@
+.servicos__container_demonstration{
+   width: 100%;
+   height: 620px;
+   display: flex;
+}
+
+.servicos__apresentacao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-block: 1.5rem;
+    margin-top: 3rem;
+    border: 1px solid red;
+}
+
+.servicos__apresentation_tittle{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ad5452;  
+    /* #603e2e */
+
+}
+
+.servicos__apresentation_details {
+    font-size: .8rem;
+    color: #603e2e;
+    font-weight: 500;
+}
+
+.servicos__container_demonstration {
+    display: flex;
+}
