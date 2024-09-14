@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff9ea;
+    min-height: 100vh;
+}
+
+/* Possíveis cores 
+#603e2e
+#a9806f
+#ad5452
+
+#d4a373
+#e6a567
+
+#c7bdb0
+
+#faedcd
+#fefae0
+#fff9ea 
+
+*/
