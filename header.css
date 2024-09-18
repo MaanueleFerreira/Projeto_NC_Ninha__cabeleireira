@@ -3,7 +3,7 @@ para aparecer apenas o container header*/
 header {
     width: 100%;
     padding: 1.25rem;
-    height: 720px;
+    height: 100vh;
     background-image: url(./assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,6 +35,11 @@ header {
     color: #d2bb9f;
     font-size: 0.95rem;
     font-weight: 500;
+}
+
+.nav_item.active a {
+color: #d2bb9f ;
+border-bottom: 2px solid #c7bdb0;
 }
 
 .nav__a:hover{
@@ -97,3 +102,9 @@ delimita a quantidade de caracters por box*/
     max-width: 42ch;
     min-width: 320px;
 }
+
+.destaque__hero{
+    color: #d4a373;
+    font-weight: 400;
+}
+

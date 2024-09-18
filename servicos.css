@@ -1,32 +1,48 @@
-.servicos__container_demonstration{
-   width: 100%;
-   height: 620px;
-   display: flex;
-}
-
-.servicos__apresentacao{
+#servicos__container {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-block: 1.5rem;
-    margin-top: 3rem;
-    border: 1px solid red;
+    height: 620px;
 }
-
-.servicos__apresentation_tittle{
-    font-size: 2rem;
-    font-weight: 800;
-    color: #ad5452;  
-    /* #603e2e */
-
-}
-
-.servicos__apresentation_details {
-    font-size: .8rem;
-    color: #603e2e;
-    font-weight: 500;
+.servicos__container_demonstration{
+   width: 100%;
+   display: flex;
 }
 
 .servicos__container_demonstration {
     display: flex;
+}
+
+.servico__container_especifico {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgb(0, 81, 255);
+}
+
+/* preciso voltar para corrigir as imagens
+elas estão se encolhendo, aaah ódio! */
+.servico__container_especifico img {
+    height: 395px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.servico__tittle {
+    font-size: 1.20rem;
+    margin-top: -0.1rem;
+    color: #a9806f;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+
+}
+
+.servico__description{
+    font-size: 0.8rem;
+    line-height: 1.1;
+}
+
+.promocoes__container {
+    width: 100%;
+
 }
