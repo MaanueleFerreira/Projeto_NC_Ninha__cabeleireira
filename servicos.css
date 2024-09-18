@@ -1,7 +1,8 @@
 #servicos__container {
     display: flex;
     flex-direction: column;
-    height: 620px;
+    height: 680px;
+    background-color: #fefae0;
 }
 .servicos__container_demonstration{
    width: 100%;
@@ -16,15 +17,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 1px solid rgb(0, 81, 255);
 }
 
 /* preciso voltar para corrigir as imagens
 elas estão se encolhendo, aaah ódio! */
 .servico__container_especifico img {
-    height: 395px;
+    height: 390px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .servico__tittle {
@@ -42,7 +41,58 @@ elas estão se encolhendo, aaah ódio! */
     line-height: 1.1;
 }
 
+/* Aba promoção */
 .promocoes__container {
     width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #fefae0;
+}
 
+.promocoes__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-left: 190px;
+}
+
+.promocao__title {
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.promocao_destaque{
+    color: #a9806f;
+    font-weight: 700;
+}
+
+.promocao__description {
+    font-size: .9rem;
+    line-height: 1.1;
+    color: #603e2e;
+}
+
+.promocoes__rigth{
+    display: flex;
+    margin-right: 150px;
+}
+
+.promocoes__btn{
+    padding: 2em 8em;
+    margin: 70px 70px 70px 70px;
+    border: none;
+    background-color: #a9806f;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+.promocoes__btn a {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
 }
