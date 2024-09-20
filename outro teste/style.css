@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff9ea;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----------------------HEADER------------------------------ */
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.position__one {
+    left: 0;
+    top: 0;
+    width: 100vw;
+    overflow: hidden;
+    border: 3px solid rgb(2, 19, 255);
+    padding: 0;   
+}
+
+.teste__header{
+    width: 100%;
+    min-height: 800px;
+    min-width: 1200px;
+    margin: 0;
+}
+
+#navbar__header {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+    justify-items: center;
+}
+
+#logo__marca{
+    min-width: 30px;
+    max-width: 140px;
+    border: 2px solid rgb(9, 238, 66);
+}
+
+.nav_list {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    gap: 25px;
+    inline-size: center;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.nav__a{
+    color: #d2bb9f;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.nav__a:hover{
+    color: #faedcd;
+}
+
+a {
+    color: #603e2e;
+}
+
+.default__btn{
+    font-weight: 600;
+    font-size: 0.80rem;
+    background: linear-gradient(25deg, #fefae0, #d4a373);
+    border: none;
+    padding: 0.35em 2em;
+    border-radius: 7px;
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.137);
+    cursor: pointer;
+    max-width: 16rem;
+    min-width: 180px;
+    transition: background 0.5s ease;
+}
+
+.default__btn:hover{
+    background: linear-gradient(25deg, #d4a373, #faedcd);
+    box-shadow: 0px 1px 6px 1px #d4a3739a;
+}
+
+.hero__container {
+    top: 60px;
+    right: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 45%; 
+    margin: 7rem 4rem;
+    padding: 2rem;
+    color: #fff9ea;
+    max-width: 1280px;
+}
+
+.hero__tittle {
+    font-size: 2.60rem;
+    line-height: 1.2;
+    max-width: 18ch; 
+    min-width: 380px;
+}
+
+.hero__destaque{
+    color: #faedcd;
+    font-size: 3.25rem;
+}
+
+.hero__description{
+    line-height: 1.45;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-block: 1.80rem;
+    max-width: 42ch;
+    min-width: 320px;
+}
+
+.destaque__hero{
+    color: #d4a373;
+    font-weight: 400;
+}
+
+
+
+

@@ -1,0 +1,147 @@
+footer{
+    background-color: #e6a567;
+}
+
+.footer__principal {
+    width: 100vw;
+    height: 250px;
+    background-color: #e6a567;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__formato{
+    margin-top: 2px;
+}
+
+.footer__logo img {
+    width: 250px;
+}
+
+.footer__description{
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    font-size: 1.1rem;
+    color: #603e2e;
+    min-width: 250px;
+    
+}
+
+.footer__destaque {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.footer__description_text{
+    text-align: center;
+    max-width: 50ch; 
+    line-height: 1.15;
+    font-size: .9rem;
+}
+
+.footer__location_container {
+    display: flex;
+}
+
+.footer__location{ 
+    text-align: center;
+    max-width: 50ch; 
+    line-height: 1.15;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+
+.footer__list_container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 2rem;
+    padding-top: .3rem;  
+
+}
+
+.footer__item_list a {
+    color: #603e2e;
+    cursor: pointer;
+
+}
+
+.footer__item_list a:hover{
+    color: #faedcd;
+}
+
+/* ---------BOTÃO---------- */
+.footer__list__btn{
+    display: flex;
+    align-items: center;
+}
+
+.footer__list_btn{
+    width: 185px;
+    padding: 0.4em 1.4em;
+    margin: 0;
+    
+    border-radius: .6em;
+    border: none;
+    color: #603e2e;
+    font-size: .8rem;
+    font-weight: 500;
+    background-color: #faedcd;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.137);
+}
+
+.footer__list_btn:hover{
+    font-weight: 600;
+    font-size: .9rem;
+    width: 230px;
+    padding: 0.4em 1.25em;
+    align-items: center;
+}
+
+/* ------------MENU----------- */
+.footer__menu_container{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.footer__menu_list {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #603e2e;
+    padding-left: .5rem;
+}
+
+.footer__item a {
+    color: #603e2e;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -.9px;
+}
+
+.footer__item a:hover{
+
+    color: #faedcd;
+}
+
+
+
+/* ------------DIREITOS------------ */
+
+
+.footer__direitos{
+    width: 100vw;
+    height: 35px;
+    color: #faedcd;
+    border-top: 1px solid #faedcd3e;
+    padding-top: .3rem;
+    text-align: center;
+}
+
+.footer__direitos span {
+    font-size: .7rem;
+    font-weight: 300;
+}
