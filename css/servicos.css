@@ -44,27 +44,27 @@ elas estão se encolhendo, aaah ódio! */
 
 /* Aba promoção */
 .promocoes__container {
-    width: 100%;
-    height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fefae0;
 }
 
 .promocoes__left{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
     gap: 10px;
-    margin-left: 190px;
+
 }
 
 .promocao__title {
     font-size: 2rem;
     line-height: 1;
     font-weight: 600;
-    min-width: 100px;
+    min-width: 200px;
+    max-width: 30ch;
 }
 
 .promocao_destaque{
@@ -80,12 +80,12 @@ elas estão se encolhendo, aaah ódio! */
 
 .promocoes__rigth{
     display: flex;
-    margin-right: 150px;
 }
 
+/* ---------------BOTÃO--------------- */
 .promocoes__btn{
     padding: 2em 8em;
-    margin: 70px 70px 70px 70px;
+    margin: 80px;
     border: none;
     background-color: #a9806f;
     justify-content: center;
@@ -101,9 +101,7 @@ elas estão se encolhendo, aaah ódio! */
 }
 
 
-/* --------------DEPOIMENTOS------------ */
-.depoimentos__container {
-    width: 100vw;
-    height: 300px;
-    background-color: #fff9ea;
+.promocoes__btn:hover{
+    background-color: #d4a373;
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.278);
 }

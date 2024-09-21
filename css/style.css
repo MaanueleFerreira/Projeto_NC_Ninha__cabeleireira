@@ -1,3 +1,10 @@
+@import url(header.css);
+@import url(apresentation.css);
+@import url(servicos.css);
+@import url(footer.css);
+@import url(depoimentos.css);
+
+
 * {
     margin: 0;
     padding: 0;
