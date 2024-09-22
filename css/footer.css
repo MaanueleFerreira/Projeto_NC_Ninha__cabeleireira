@@ -1,19 +1,23 @@
 footer{
     background-color: #e6a567;
+    overflow: hidden;
 }
 
 .footer__principal {
     width: 100vw;
-    height: 250px;
+    height: 230px;
     background-color: #e6a567;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
+/* -----------ONDULAÇÃO IMAGEM-------------- */
 .footer__formato{
-    margin-top: -15px;
+    width: 100vw;
+    border-top: 2px solid #fff9ea;
 }
+/* ----------------------------------------- */
 
 .footer__logo img {
     width: 250px;
@@ -26,7 +30,6 @@ footer{
     font-size: 1.1rem;
     color: #603e2e;
     min-width: 250px;
-    
 }
 
 .footer__destaque {
@@ -111,7 +114,7 @@ footer{
 .footer__menu_list {
     display: flex;
     flex-direction: column;
-    border-left: 2px solid #603e2e;
+    border-left: 2px solid #ad5452;
     padding-left: .5rem;
 }
 

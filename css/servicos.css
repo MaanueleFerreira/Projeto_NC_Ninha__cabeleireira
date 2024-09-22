@@ -68,7 +68,7 @@ elas estão se encolhendo, aaah ódio! */
 }
 
 .promocao_destaque{
-    color: #a9806f;
+    color: #e6a567;
     font-weight: 700;
 }
 
@@ -87,7 +87,7 @@ elas estão se encolhendo, aaah ódio! */
     padding: 2em 8em;
     margin: 80px;
     border: none;
-    background-color: #a9806f;
+    background-color: #e6a567;
     justify-content: center;
     cursor: pointer;
     border-radius: 9px;
@@ -102,6 +102,6 @@ elas estão se encolhendo, aaah ódio! */
 
 
 .promocoes__btn:hover{
-    background-color: #d4a373;
+    background-color: #ad5452;
     box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.278);
 }
