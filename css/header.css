@@ -2,17 +2,12 @@
 para aparecer apenas o container header*/
 header {
     width: 100%;
-    padding: 1.25rem;
-    height: 100vh;
-    background-image: url(../assets/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    overflow: hidden;
+    height: 100px;
+    padding: 1.30rem;
 }
 
 #navbar__header {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;  
@@ -25,13 +20,15 @@ header {
         background-image: url(./assets/background.jpg);
         background-repeat: repeat;
         background-position: top left;
-    }
+        }
 } */
 
 #logo__marca{
     min-width: 30px;
     max-width: 140px;
+    margin-top: 10px;
 }
+
 
 .nav_list {
     display: flex;
@@ -74,11 +71,28 @@ brincar e descobrir mais efeitos de transition e animation*/
     background: linear-gradient(25deg, #d4a373, #faedcd);
 }
 
-.hero__container{
+/* ---------------HERO SECTION------------------- */
+#hero__container {
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+
+.hero__section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 45%; 
-    margin: 7rem 4rem;
+    height: 100vh;
+    margin-left: 4rem;
     padding: 2rem;
     color: #fff9ea;
     max-width: 1280px;
@@ -90,7 +104,7 @@ delimita a quantidade de caracters por box*/
     font-size: 2.60rem;
     line-height: 1.2;
     max-width: 18ch; 
-    min-width: 380px;
+    min-width: 20rem;
 }
 
 .hero__destaque{

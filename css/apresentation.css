@@ -1,6 +1,7 @@
 
 /* >>>>>>>>  Sessão destaque  <<<<<<<< */
 .destaques__container{
+    margin-top: 40rem;
     width: 100%;
     height: 300px;
     display: flex;
